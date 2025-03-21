@@ -1,0 +1,159 @@
+body{
+    font-family: sans-serif;
+    background-color: #cccccc;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+
+.header-container{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #120323;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    
+    background-color: #d9043d;
+}
+
+
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        padding: 5px;
+        gap: 5px;
+        width: 95%;
+        background-color: #120323;
+    }
+
+    nav ul li {
+        width: 100%;
+        text-align: center;
+        border: 2px solid black; 
+        padding: 10px;
+        background-color: #d9043d; 
+        border: 2px solid #97bf04;
+    }
+}
+
+
+
+
+
+.header-container h1{
+    color: #97bf04;
+}
+
+
+
+h2{
+    text-align: center;
+    color: #120323;
+}
+
+
+
+
+
+
+figure{
+    background: white;
+    padding: 1rem;
+    max-width: 250px;
+    min-width: 250; 
+    
+}
+
+figure>img{
+    width: 100%;
+    max-width: 650px;
+    min-width: 200px;
+    border-bottom: 10px solid #97bf04;
+    
+}
+
+
+
+
+
+#gallery-container {
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1250px;
+    margin: auto;
+     
+}
+
+
+
+@media (max-width: 1000px) {
+    #gallery-container {
+        grid-template-columns: repeat(2, 1fr); 
+        max-width: 900px;
+        
+    }
+}
+
+
+
+
+@media(min-width: 600px){
+    figure:nth-of-type(11){
+        min-width: 620px; 
+        max-width: 600px;
+       
+        
+        
+        img {
+            display: block;
+            margin: auto;
+            width: 50%;
+           
+          }
+    }
+    
+}
+
+
+
+footer{
+
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    background-color:#d9043d ;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+   
+   
+}
