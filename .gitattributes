@@ -1,2 +1,23 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+ PROJECT 
+ This project is the creation of an image gallery adaptive to different types of responsive devices.
+
+Pictures of the images 
+📷 UPLOAD THE IMAGES THAT ARE SENT TO THE TEACHER THE 3 SIZES
+cprg-218-assignment-3/images at main - Jartube/cprg-218-assignment-3 - GitHub
+
+
+INSTALLATION
+1.📥clone repository: https://github.com/Jartube/cprg-218-assignment-3.git
+2. access folder: index.html
+3.install: visual studio code
+4.run the project: web browser
+
+📌 Technologies used 
+HTML
+CSS
+
+📜LICENSE
+project under the university license of "SAIT UNIVERSITY".
+
+📩 Contact
+Jairtoroube@gmail.com
